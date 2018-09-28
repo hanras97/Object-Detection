@@ -12,7 +12,7 @@ from matplotlib import pyplot as plt
 from PIL import Image
 
 import cv2
-cap = cv2.VideoCapture("videoplayback.mp4")
+cap = cv2.VideoCapture("directory-of-the-video-file")
 
 # This is needed since the notebook is stored in the object_detection folder.
 sys.path.append("..")
